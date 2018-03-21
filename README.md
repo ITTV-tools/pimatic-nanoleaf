@@ -28,7 +28,7 @@ Plugin section:
     }
  ```
   
-## How to get API Token
+## How to get a API Token
 1. Press the Power Key on your Hub for 5-7 sec. until the yellow light is blinking.
 2. Do a post request to the following URL (using Postman or something similar):
 http://<IP>:16021/api/beta/new 
