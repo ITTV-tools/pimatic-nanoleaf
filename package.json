@@ -2,6 +2,7 @@
   "description": "Nanoleaf Pimatic Plugin ",
   "author": "Lukas Augsburg",
   "main": "nanoleaf",
+  "license": "MIT",
   "files": [
     "Nanoleaf.coffee",
     "README.md",
@@ -12,7 +13,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ittv/pimatic-nanoleaf.git"
+    "url": "git://github.com/ITTV-tools/pimatic-nanoleaf.git"
   },
   "configSchema": "nanoleaf-config-schema.coffee",
   "dependencies": {
