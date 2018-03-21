@@ -9,13 +9,15 @@ This version supports the following
 ## Plugin Configuration
 
 Plugin section:
+```
     {
       "plugin": "nanoleaf",
       "active": true
     },
-    
+```
     
  Device section:
+``` 
     {
       "IP": "<IP>",
       "Token": "uZ4UKQ05jkFCn6jllYjOo8srMUGuIXgB",
@@ -24,6 +26,7 @@ Plugin section:
       "class": "LightAurora",
       "Interval": 3000
     }
+ ```
   
 ## How to get API Token
 1. Press the Power Key on your Hub for 5-7 sec. until the yellow light is blinking.
