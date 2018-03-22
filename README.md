@@ -38,3 +38,11 @@ http://IP:16021/api/beta/new
 - Add a dimmer 
 - Add a colorpicker
 - Add a effectpicker 
+
+## Fixed
+Version 0.0.3 
+```
+- package.json
+- Missing device-config.json
+- Better naming for Device (Lights musst be recreated)
+```
