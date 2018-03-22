@@ -1,4 +1,5 @@
-{ "name": "pimatic-nanoleaf",
+{
+  "name": "pimatic-nanoleaf",
   "description": "Nanoleaf Pimatic Plugin ",
   "author": "Lukas Augsburg",
   "main": "nanoleaf",
@@ -10,17 +11,18 @@
     "devices",
     "device-config-schema.conffee"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/ITTV-tools/pimatic-nanoleaf.git"
   },
   "configSchema": "nanoleaf-config-schema.coffee",
   "dependencies": {
-    "nanoleaf-aurora-client": "1.1.8"
+    "nanoleaf-aurora-client": "1.1.8",
+    "npm": "^5.7.1"
   },
   "peerDependencies": {
-    "pimatic": "0.8.*"
+    "pimatic": ">=0.9.*"
   },
   "engines": {
     "node": ">0.8.x",

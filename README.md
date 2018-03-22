@@ -15,9 +15,9 @@ Plugin section:
       "active": true
     },
 ```
-    
+
  Device section:
-``` 
+```
     {
       "IP": "<IP>",
       "Token": "uZ4UKQ05jkFCn6jllYjOo8srMUGuIXgB",
@@ -27,22 +27,22 @@ Plugin section:
       "Interval": 3000
     }
  ```
-  
+
 ## How to get a API Token
 1. Press the Power Key on your Hub for 5-7 sec. until the yellow light is blinking.
 2. Do a post request to the following URL (using Postman or something similar):
-http://IP:16021/api/beta/new 
+http://IP:16021/api/beta/new
 3. You should find the Token in the body section.
 
 ## To do
-- Add a dimmer 
+- Add a dimmer
 - Add a colorpicker
-- Add a effectpicker 
+- Add a effectpicker
 
 ## Fixed
-Version 0.0.3 
+Version 0.0.3
 ```
 - package.json
 - Missing device-config.json
-- Better naming for Device (Lights musst be recreated)
+- Better naming for device (Device musst be recreated)
 ```

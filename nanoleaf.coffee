@@ -8,6 +8,7 @@ module.exports = (env) ->
   for device in [
     'light-aurora'
   ]
+    deviceName = device.replace /(^[a-z])|(\-[a-z])/g, ($1) -> $1.toUpperCase()
     className = device.replace /(^[a-z])|(\-[a-z])/g, ($1) -> $1.toUpperCase().replace('-','')
     deviceTypes[className] = require('./devices/' + device)(env)
 
@@ -19,8 +20,8 @@ module.exports = (env) ->
       deviceConfigDef = require("./device-config-schema")
 
       for className, classType of deviceTypes
-        env.logger.debug "Registering device class #{className}"
-        @framework.deviceManager.registerDeviceClass(className, {
+        env.logger.debug "Registering device class #{deviceName}"
+        @framework.deviceManager.registerDeviceClass(deviceName, {
           configDef: deviceConfigDef[className],
           createCallback: @callbackHandler(className, classType)
         })
