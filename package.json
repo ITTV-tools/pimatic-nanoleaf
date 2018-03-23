@@ -9,9 +9,9 @@
     "README.md",
     "nanoleaf-config-schema.coffee",
     "devices",
-    "device-config-schema.conffee"
+    "device-config-schema.coffee"
   ],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "git://github.com/ITTV-tools/pimatic-nanoleaf.git"
