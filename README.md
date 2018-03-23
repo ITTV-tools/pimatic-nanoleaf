@@ -40,6 +40,12 @@ http://IP:16021/api/beta/new
 - Add a effectpicker
 
 ## Fixed
+Version 0.0.4
+```
+- package.json
+- Increased timeout for status poll to 5 sec
+
+```
 Version 0.0.3
 ```
 - package.json
