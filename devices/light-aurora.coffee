@@ -17,7 +17,8 @@ module.exports = (env) ->
         host: @config.IP
         base: '/api/v1/'
         port: '16021'
-        accessToken: @config.Token)
+        accessToken: @config.Token
+        timeout: 5000)
 
       @updateState()
       setInterval( ( =>
