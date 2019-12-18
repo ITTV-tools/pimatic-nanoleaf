@@ -19,7 +19,7 @@
   "configSchema": "nanoleaf-config-schema.coffee",
   "dependencies": {
     "nanoleaf-aurora-client": "1.1.8",
-    "npm": "^5.7.1"
+    "npm": "^6.13.4"
   },
   "peerDependencies": {
     "pimatic": ">=0.9.*"
